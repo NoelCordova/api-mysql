@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { handleError } = require('../../config/functions');
-const db = require('../../config/db');
+const { handleError } = require('../../../config/functions');
+const db = require('../../../config/db');
 
 
 // URL /api/tabla
