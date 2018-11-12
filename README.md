@@ -15,3 +15,4 @@ npm run setup
 
 ## API Routes
 ---
+* __/auth/login__
