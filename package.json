@@ -1,0 +1,25 @@
+{
+  "name": "servidor",
+  "version": "0.0.1",
+  "description": "Just a demo server with MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "setup": "npm install && nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.6",
+    "volleyball": "^1.5.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
